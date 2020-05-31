@@ -1,0 +1,37 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+}
+
+h1 {
+	font-size: large;
+	color: black;
+	margin: 0px;
+	padding-bottom: 20px;
+}
+h2 {
+	font-size: large;
+	color: black;
+}
+h3 {
+	font-size: medium;
+	color: black;
+	padding-top: 20px;
+}
+h4 {
+	font-size: small;
+	color: black;
+	padding-top: 10px;
+}
+.noprint, .p-ttl-l
+{
+	display: none;
+}
+.bodytxt
+{
+	font-size: x-small;
+}
+table
+{
+	page-break-inside: avoid;
+}

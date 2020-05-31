@@ -1,0 +1,146 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><!-- InstanceBegin template="/Templates/page-template.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>AEROMAP - Multimedia</title>
+<!-- InstanceEndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="AEROMAP2.css" rel="stylesheet" type="text/css" media="all">
+<link href="AEROMAP_print.css" rel="stylesheet" type="text/css" media="print">
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body class="pbody">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr class="noprint">
+    <td width="0%" class="p-ttl-tl"><img src="images/space.gif" alt=" " width="230" height="35"></td>
+    <td width="100%" valign="top" class="p-ttl-t"><a name="top"></a></td>
+  </tr>
+  <tr>
+    <td width="0%" class="p-ttl-l"><img src="images/space.gif" alt=" " width="230" height="75"></td>
+    <td width="100%" class="p-ttl-bg"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="100%"><h1><!-- InstanceBeginEditable name="page-title" -->AEROMAP - Multimedia <!-- InstanceEndEditable --></h1></td>
+          <td width="0%" class="noprint"><a href="index.html"><img src="images/p-logo.gif" alt="AEROMAP logo" width="90" height="75" border="0"></a></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr class="noprint">
+    <td width="0%" class="p-ttl-bl"><img src="images/space.gif" alt=" " width="230" height="45"></td>
+    <td width="100%" class="p-ttl-b">&nbsp;</td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr valign="top"> 
+    <td width="0%" class="noprint"> <table width="197" border="0" cellspacing="0">
+        <tr> 
+          <td><div id="navcontainer2"> 
+              <ul id="navlist2">
+                <li class="bodytxt"><a href="group.html" id="current">&nbsp;&nbsp;About</a></li>
+                <li class="bodytxt"><a href="whatsnew.html">&nbsp;&nbsp;News</a></li>
+                <li class="bodytxt"><a href="projects.html">&nbsp;&nbsp;Research</a></li>
+                <li class="bodytxt"><a href="publicat.html">&nbsp;&nbsp;Publications</a></li>
+                <li class="bodytxt"><a href="media.html">&nbsp;&nbsp;Media</a></li>
+              </ul>
+              </div></td>
+        </tr>
+        <tr> 
+          <td><span class="bodytxt">&nbsp;</span></td>
+        </tr>
+        <tr> 
+          <td><span class="bodytxt">&nbsp;&nbsp;Gateways into AEROMAP</span></td>
+        </tr>
+        <tr> 
+          <td><div id="navcontainer2">
+              <ul id="navlist2">
+                <li class="bodytxt"><a href="in_visit.html">&nbsp;&nbsp;New Visitors</a></li>
+                <li class="bodytxt"><a href="in_resea.html">&nbsp;&nbsp;Researchers</a></li>
+                <li class="bodytxt"><a href="in_teach.html">&nbsp;&nbsp;Education</a></li>
+                <li class="bodytxt">&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.html">&nbsp;&nbsp;Home</a></li>
+              </ul>
+              </div></td>
+        </tr>
+      </table></td>
+    <td width="100%"><!-- InstanceBeginEditable name="page-content" -->
+
+
+      <table width="100%" border="0" cellpadding="0" cellspacing="10">
+
+
+
+	  
+
+
+<form name="ff">
+<table width="90%" cellspacing="10" cellpadding="10" style="border:1px black solid;border-collapse:collapse;" align="center">
+<tr><th align=center>AEROMAP - Graphics</th></tr>
+
+<tr><td align=center>
+<img src="images/MM3.png" name="show">
+</td></tr>
+
+<tr><td align=center style="border:1px black solid;">
+<select name="slide" onChange="rotate(this.selectedIndex);">
+<option value="images/MM1.png" selected>Poster 1: Euro-Science Open Forum, Dublin</option>
+<option value="images/MM2.png">Poster 2: European Aerosol Conference, Granada</option>
+<option value="images/MM3.png">Graphical Abstract</option>
+</select>
+</td></tr>
+
+<tr><td align=center style="border:1px black solid;">
+<input type=button onclick="rotate(0);" value="ll&lt;&lt;" title="Jump to beginning">
+<input type=button onclick="rotate(x-1);" value="&lt;&lt;" title="Last Picture">
+<input type=button name="fa" onClick="this.value=((this.value=='Stop')?'Start':'Stop');auto();" value="Start" title="Autoplay" style="width:50px;">
+<input type=button onclick="rotate(x+1);" value="&gt;&gt;" title="Next Picture">
+<input type=button onclick="rotate(this.form.slide.length-1);" value="&gt;&gt;ll" title="Jump to end">
+</td></tr></table></form>
+
+
+
+      </table>
+	  
+      <!-- InstanceEndEditable --></td>
+	  
+    <td width="0%">&nbsp;</td>
+  </tr>
+  
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr class="noprint"> 
+    <td><img src="images/space.gif" alt=" " width="230" height="10"></td>
+    <td><div id="navcontainer2"><ul id="navlist2">
+          <li><div align="center" class="bodytxt"><a href="#top">Top</a></div></li>
+        </ul></div></td>
+    <td><img src="images/space.gif" alt=" " width="40" height="10"></td>
+  </tr>
+  <tr> 
+    <td width="0%">&nbsp;</td>
+    <td width="100%">&nbsp;</td>
+    <td width="0%">&nbsp;</td>
+  </tr>
+</table>
+
+
+<script type="text/javascript">
+
+var x=3;
+
+function rotate(num){
+fs=document.ff.slide;
+x=num%fs.length;
+if(x<0) x=fs.length-1;
+document.images.show.src=fs.options[x].value;
+fs.selectedIndex=x;}
+
+function auto() {
+if(document.ff.fa.value == "Stop"){
+rotate(++x);setTimeout("auto()", 2000);}}
+</script>
+
+</body>
+<!-- InstanceEnd -->
+</html>
